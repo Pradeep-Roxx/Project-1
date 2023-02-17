@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background: url(./Images/navWall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.nav-link {
+  font-weight: 650;
+  line-height: 2;
+  border-radius: 75px;
+}
+.navtag:hover {
+  background-color: rgba(86, 155, 172, 0.968);
+  transition-duration: 0.3s;
+  border: 2px rgba(82, 199, 195, 0.752) hidden;
+  border-radius: 46%;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+.collapse ul li {
+  padding-inline: 30px;
+}
+.btn0 {
+  outline: none;
+  background-color: rgb(28, 7, 146);
+  border-radius: 65px;
+  width: 90px;
+  height: 42px;
+  color: ghostwhite;
+  margin-left: -45px;
+  font-weight: 650;
+  border: none;
+}
+.search {
+  outline: none;
+  border-radius: 60px;
+  border: 3px solid rgb(28, 7, 146);
+  width: 190px;
+}
+.container1 {
+  background: url(./Images/gamesCollage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+.cadaver {
+  color: rgb(253, 255, 254);
+  position: relative;
+  top: 350px;
+}
+
+.btn1 {
+  height: 45px;
+  width: 20%;
+  border: none;
+  outline: none;
+  background-color: rgb(150, 43, 146);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(223, 15, 77);
+  transition: 0.5s;
+}
+.product {
+  background: url(./Images/navWall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.card:hover {
+  box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+}
+.img-fluid:hover {
+  transition: 0.8s;
+  transform: translate(-2px, -2px);
+  border-radius: 5px;
+  width: 100%;
+}
